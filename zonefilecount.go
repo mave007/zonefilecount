@@ -87,6 +87,6 @@ func main() {
 	/* Don't count origin */
 	domains.count--
 
-	fmt.Println("A;AAAA;CNAME;NS;MX")
-	fmt.Println(rrtypes[dns.TypeA],";",rrtypes[dns.TypeAAAA],";",rrtypes[dns.TypeCNAME],";",rrtypes[dns.TypeNS],";",rrtypes[dns.TypeMX])
+	fmt.Println("A;AAAA;CNAME;NS;MX;Total")
+	fmt.Println(rrtypes[dns.TypeA],";",rrtypes[dns.TypeAAAA],";",rrtypes[dns.TypeCNAME],";",rrtypes[dns.TypeNS],";",rrtypes[dns.TypeMX],";",rrParsed)
 }
