@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/miekg/dns"
 	"os"
-	"strconv"
 	"strings"
 )
 
